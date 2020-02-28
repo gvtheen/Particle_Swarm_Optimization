@@ -1,0 +1,144 @@
+# depslib dependency file v1.0
+1582783047 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\main.cpp
+	<iostream>
+	<cmath>
+	"CPSOEngine.h"
+
+1582813696 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\src\cevaluator.cpp
+	<iostream>
+	"CEvaluator.h"
+	"CParticleBool.h"
+	"CParticle.h"
+	"../Util/log.hpp"
+
+1582727977 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\include\cevaluator.h
+	"PSOdeclaration.h"
+
+1582773504 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\include\psodeclaration.h
+	<vector>
+
+1582813275 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\include\cparticlebool.h
+	<vector>
+	"PSOdeclaration.h"
+
+1582769447 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\include\cparticle.h
+	<vector>
+	<string>
+
+1582814100 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\src\cpsoengine.cpp
+	<iostream>
+	"CPSOEngine.h"
+	"CParticleBool.h"
+	"CEvaluator.h"
+	"CPSOFitnessScaling.h"
+	"CPSOParameter.h"
+	"../Util/log.hpp"
+
+1582782212 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\include\cpsoengine.h
+	"../IACS.h"
+	"PSOdeclaration.h"
+	"CPSOFitnessScaling.h"
+
+1582728873 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\iacs.h
+	<stdexcept>
+	<boost/throw_exception.hpp>
+	"assert.h"
+	<iostream>
+
+1582728169 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\include\cpsofitnessscaling.h
+
+1582813909 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\include\cpsoparameter.h
+	<iostream>
+	<string>
+	<map>
+	"../IACS.h"
+
+1582786634 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\src\cpsofitnessscaling.cpp
+	<iostream>
+	"CPSOFitnessScaling.h"
+	"CParticle.h"
+	"CParticleBool.h"
+	"../Util/log.hpp"
+
+1582813709 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\src\cparticle.cpp
+	<vector>
+	"CParticle.h"
+	"CPSOParameter.h"
+	"../Util/CRandomgenerator.h"
+	"../Util/log.hpp"
+	"../IACS.h"
+
+1565624896 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\crandomgenerator.h
+	"Point-Vector.h"
+
+1538573561 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\point-vector.h
+	<Eigen/Core>
+	<Eigen/Dense>
+
+1539981508 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\crandomgenerator.cpp
+	<boost/random.hpp>
+	<time.h>
+	<limits>
+	"CRandomgenerator.h"
+
+1582814143 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\src\cpsoparameter.cpp
+	<cmath>
+	"CPSOParameter.h"
+	"../IACS.h"
+
+1550749043 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\cprogamedoc.cpp
+	"CProgameDoc.h"
+	"log.hpp"
+
+1540041460 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\cprogamedoc.h
+	<string>
+
+1550761059 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\log.hpp
+	<string>
+	<iostream>
+	<fstream>
+	"../IACS.h"
+	"prefixedoutstream.hpp"
+	"nulloutstream.hpp"
+
+1537706838 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\prefixedoutstream.hpp
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<cctype>
+	<climits>
+	<cfloat>
+	<cstdint>
+	<stdexcept>
+	<tuple>
+	<utility>
+	"prefixedoutstream_impl.hpp"
+
+1582767732 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\prefixedoutstream_impl.hpp
+	"prefixedoutstream.hpp"
+	<iostream>
+	<sstream>
+
+1537706621 f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\nulloutstream.hpp
+	<iostream>
+	<streambuf>
+	<string>
+
+1582768183 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\log.cpp
+	"log.hpp"
+
+1539981558 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\util\prefixedoutstream.cpp
+	"prefixedoutstream.hpp"
+
+1582814300 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\src\cparticlebool.cpp
+	<iostream>
+	"CParticleBool.h"
+	"CParticle.h"
+	"CPSOParameter.h"
+	"PSOdeclaration.h"
+	"../Util/log.hpp"
+	"../Util/CRandomgenerator.h"
+
+1582813781 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\pso-algorithm\psozjut\src\psodeclaration.cpp
+	"PSOdeclaration.h"
+
